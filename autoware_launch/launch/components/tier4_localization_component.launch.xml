@@ -22,6 +22,13 @@
       <arg name="ekf_localizer_param_path" value="$(var loc_config_path)/ekf_localizer.param.yaml"/>
       <arg name="pose_initializer_param_path" value="$(var loc_config_path)/pose_initializer.param.yaml"/>
 
+      <!-- Hope this works-->
+      <arg name="ndt_enabled" value="true"/>
+      <arg name="gnss_enabled" value="false"/>
+      <arg name="ekf_enabled" value="false"/>
+      <arg name="yabloc_enabled" value="false"/>
+      <arg name="stop_check_enabled" value="false"/>
+
       <!-- parameter paths for ndt -->
       <arg name="ndt_scan_matcher_param_path" value="$(var loc_config_path)/ndt_scan_matcher.param.yaml"/>
 
