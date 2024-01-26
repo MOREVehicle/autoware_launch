@@ -3,6 +3,13 @@
     gnss_pose_timeout: 3.0 # [sec]
     stop_check_duration: 3.0 # [sec]
 
+    #variables
+    ndt_enabled: true
+    gnss_enabled: false
+    ekf_enabled: false
+    yabloc_enabled: false
+    stop_check_enabled: false
+
     # from gnss
     gnss_particle_covariance:
       [
